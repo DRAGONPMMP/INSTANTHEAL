@@ -1,0 +1,17 @@
+---
+name: InstantHeal
+api: 4.0.0
+version: 2.0.0
+main:  InstantHeal/DRAGONPMMP/InstantHeal 
+author: DRAGONPMMP 
+description: It will heal players 
+
+commands: 
+heal: 
+  description: heal your self 
+  permission: Instantheal.use
+  
+  permissions: 
+   Instantheal.use: 
+   description: Permission to heal yourself 
+   defaullt: op
